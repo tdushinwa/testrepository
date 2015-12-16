@@ -1,2 +1,2 @@
 # testrepository
-git test
+このリポジトリは学習用リポジトリです
