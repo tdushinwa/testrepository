@@ -22,10 +22,11 @@ class OpenGLInit():
         glDepthFunc(GL_LESS)
         glEnable(GL_DEPTH_TEST)
         glShadeModel(GL_SMOOTH)
-        glMatrixMode(GL_PROJECTION)
 
+        glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
         gluPerspective(45.0, float(w) / float(h), 0.1, 100.0)
+
         glMatrixMode(GL_MODELVIEW)
 
 
