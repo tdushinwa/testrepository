@@ -3,7 +3,7 @@
 
 from PIL import Image, ImageDraw, ImageFont
 
-font = ImageFont.truetype('/usr/share/fonts/TTF/Ricty-Regular.ttf',
+font = ImageFont.truetype('Ricty-Regular.ttf',
                           30, encoding=('unic'))
 
 text_canvas = Image.new('RGBA', (480, 320), (255, 255, 255))
